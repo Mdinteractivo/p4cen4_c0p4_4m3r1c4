@@ -37,8 +37,9 @@
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="14" />
-
-                  <!-- iOS 8.0+ -->
+    
+    <platform name="ios"> 
+              <!-- iOS 8.0+ -->
               <!-- iPhone 6 Plus  -->
               <icon src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
               <!-- iOS 7.0+ -->
@@ -73,5 +74,21 @@
               <splash src="res/splash/ios/Default-Portrait@2x.png" width="1536" height="2048"/>
               <splash src="res/splash/ios/Default.png" width="320" height="480"/>
               <splash src="res/splash/ios/Default@2x.png" width="640" height="960"/>
+    </platform>
+    
+    <platform name="android">
+
+              <icon src="res/icon/android/ldpi.png" density="ldpi" />
+              <icon src="res/icon/android/mdpi.png" density="mdpi" />
+              <icon src="res/icon/android/hdpi.png" density="hdpi" />
+              <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+
+              <splash src="res/splash/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+              <splash src="res/splash/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+              <splash src="res/splash/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+              <splash src="res/splash/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
+              
+     </platform>
+
 
 </widget>
