@@ -48,7 +48,7 @@
 		var divScroll = document.createElement('div');
 			divScroll.className = 'divScroll';
 			$(holderItems).append(divScroll);
-			$(divScroll).css({'height' : altoPantalla, 'margin-top' : -18, 'background' : 'rgba(255,255,255,0.6)'});
+			$(divScroll).css({'height' : altoPantalla-40, 'margin-top' : -18, 'background' : 'rgba(255,255,255,0.6)'});
 	
 		var divAuxiliar = document.createElement('div');
 			$(divScroll).append(divAuxiliar);
