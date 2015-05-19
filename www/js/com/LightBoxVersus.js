@@ -61,10 +61,10 @@ function LightBoxVersus(nodo, parent)
 		$(holderInputs).css({'width' : '100%', 'height' : 35, 'float' : 'left', 'position' : 'relative', 'margin-top' : 5});
 		
 	var inputLocal = document.createElement('input');
-		inputLocal.type = 'text';
+		inputLocal.type = 'number';
 		inputLocal.maxLength = 2;
 		$(holderInputs).append(inputLocal);
-		$(inputLocal).css({'width' : 50, 'height' : 25, 'margin-left' : 40, 'border' : 'none', 'text-align' : 'center'});
+		$(inputLocal).css({'width' : 71, 'height' : 25,margin:0, padding:0, 'box-sizing':'border-box', 'margin-left' : 28, 'border' : 'none', 'text-align' : 'center'});
 		$(inputLocal).numeric();
 		$(inputLocal).bind('keyup' , checkUp);
 		
@@ -72,7 +72,7 @@ function LightBoxVersus(nodo, parent)
 		inputVisitante.type = 'text';
 		inputVisitante.maxLength = 2;
 		$(holderInputs).append(inputVisitante);
-		$(inputVisitante).css({'width' : 50, 'height' : 25,margin:0, padding:0, 'box-sizing':'border-box', 'margin-left' : 140, 'border' : 'none', 'text-align' : 'center'});		
+		$(inputVisitante).css({'width' : 71, 'height' : 25,margin:0, padding:0, 'box-sizing':'border-box', 'margin-left' : 121, 'border' : 'none', 'text-align' : 'center'});		
 		$(inputVisitante).numeric();
 		$(inputVisitante).bind('keyup' , checkUp);
 	
