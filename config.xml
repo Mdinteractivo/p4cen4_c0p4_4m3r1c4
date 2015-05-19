@@ -1,6 +1,6 @@
 <?xml version='1.0.0' encoding='utf-8'?>
 <widget id="com.mdinteractivo.pacena.copa.america" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Pacena Copa America</name>
+    <name>APP Copera</name>
     <description>
         Con esta App podrás estar informado de tus selecciones favoritas, encontrar las pantallas Paceña más cercanas y participar del juego de pronósticos de Paceña.
     </description>

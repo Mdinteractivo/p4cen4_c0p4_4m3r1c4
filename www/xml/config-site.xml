@@ -23,7 +23,7 @@
 		<!--seccion id="1" color-text="white" key="noticias"  activa="true" color="red" top="10">Noticias y curiosidades</seccion-->
 		<seccion id="2" color-text="white" key="fixture"   activa="true" color="yellow" top="13" right="13">Fixture</seccion>
 		<seccion id="3" color-text="white" key="polla"     activa="true" color="red" top="13" right="13">Juego de Pronósticos</seccion>
-		<seccion id="4" color-text="white" key="pantallas" activa="true" color="yellow" top="11" right="18" >Dónde ver la copa américa</seccion>
+		<seccion id="4" color-text="white" key="pantallas" activa="true" color="yellow" top="11" right="18" >Dónde ver los partidos</seccion>
 		<!--seccion id="5" color-text="white" key="fotos"     activa="true" color="red" top="15">Fotos y videos</seccion>
 		<seccion id="7" color-text="white" key="bases"     activa="true" color="red" top="10">Bases y condiciones del juego</seccion-->
 

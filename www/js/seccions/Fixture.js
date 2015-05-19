@@ -62,7 +62,7 @@
 			$(divVolver).text('VOLVER');
 	
 		var titulo = document.createElement('h1');
-			$(titulo).text('FIXTURE DEL MUNDIAL');
+			$(titulo).text('FIXTURE');
 			$(titulo).css({'color' : '#FFF', 'margin-left' : 82});
 			$(holderTituloGrupo).append(titulo);
 			$(divVolver).bind('click' , doCloseGrupo);
