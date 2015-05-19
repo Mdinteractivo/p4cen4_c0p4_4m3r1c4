@@ -433,7 +433,7 @@ function DatosApp(parent, data)
                 {
                     usuario_uid : data.usuario_uid,
                     usuario_at : data.access_token,
-                    usuario_nombre : $(inputNombre).val(),
+                    usuario_nombre : data.usuario_nombre,
                     usuario_email : data.usuario_email,
                     usuario_ciudad_origen  : data.usuario_ciudad_origen,
                     usuario_ciudad_actual : data.usuario_ciudad_actual,
