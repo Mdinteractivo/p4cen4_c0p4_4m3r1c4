@@ -92,14 +92,14 @@
 			$(textGoles).css({'position' : 'absolute', 'left' : 32, 'top' : 8});
 	
 		//Noticias
-		var tickNoticias = new TickComponentNotifiacion(self);
+		/*var tickNoticias = new TickComponentNotifiacion(self);
 			$(holderNotificacionesFavNoticias).append(tickNoticias.div);
 			$(tickNoticias.div).css({'left' : 163});
 	
 		var textNoticias = document.createElement('p');
 			$(textNoticias).text('Noticias');
 			$(holderNotificacionesFavNoticias).append(textNoticias);
-			$(textNoticias).css({'position' : 'absolute', 'left' : 195, 'top' : 8});
+			$(textNoticias).css({'position' : 'absolute', 'left' : 195, 'top' : 8});*/
 			
 		/**/
 		var holderEquipos = document.createElement('div');
@@ -234,8 +234,8 @@
 			if(parseInt($(xml).find('notificaciones').find('goles').text()) == 1)
 				tickGoles.setEstadoActivo();
 
-			if(parseInt($(xml).find('notificaciones').find('noticias').text()) == 1)
-				tickNoticias.setEstadoActivo();
+		/*	if(parseInt($(xml).find('notificaciones').find('noticias').text()) == 1)
+				tickNoticias.setEstadoActivo();*/
 
 			if(parseInt($(xml).find('notificaciones').find('pronostico').text()) == 1)
 				tickAcertasteResultado.setEstadoActivo();
@@ -270,7 +270,7 @@
 				'notificaciones_inicio_partido' : tickInicioPartido.getEstado(),
 				'notificaciones_fin_partido' : tickFinalPartido.getEstado(),
 				'notificaciones_goles' : tickGoles.getEstado(),
-				'notificaciones_noticias' : tickNoticias.getEstado(),
+				//'notificaciones_noticias' : tickNoticias.getEstado(),
 				'notificaciones_acertaste_pronostico' : tickAcertasteResultado.getEstado(),
 				'notificaciones_partido_por_cerrarse' : ticPartidoCerrarse.getEstado(),
 				'notificaciones_total_puntos' : tickTotalPuntos.getEstado(),

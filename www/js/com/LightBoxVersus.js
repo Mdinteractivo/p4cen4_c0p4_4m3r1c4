@@ -213,7 +213,7 @@ function LightBoxVersus(nodo, parent)
 		
 		if(estado == 1)
 		{
-			$(btnCompartir).css({'display' : 'block'});	
+			//$(btnCompartir).css({'display' : 'block'});	
 			$(btnEnviar).css({'display' : 'none'});
 			$(btnEditar).css({'display' : 'block'});
 			
