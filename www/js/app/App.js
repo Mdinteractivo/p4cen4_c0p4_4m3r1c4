@@ -88,7 +88,7 @@ var objApp;
 				}catch(e){}
 
 				//alert('UUID: ' + self.UUID)
-	    		//self._ManagePush.registrar();	
+	    		self._ManagePush.registrar();	
    			}
 
 			$.ajax
