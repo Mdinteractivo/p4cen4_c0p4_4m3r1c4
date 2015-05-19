@@ -69,7 +69,7 @@ function LightBoxVersus(nodo, parent)
 		$(inputLocal).bind('keyup' , checkUp);
 		
 	var inputVisitante = document.createElement('input');
-		inputVisitante.type = 'text';
+		inputVisitante.type = 'number';
 		inputVisitante.maxLength = 2;
 		$(holderInputs).append(inputVisitante);
 		$(inputVisitante).css({'width' : 71, 'height' : 25,margin:0, padding:0, 'box-sizing':'border-box', 'margin-left' : 121, 'border' : 'none', 'text-align' : 'center'});		
