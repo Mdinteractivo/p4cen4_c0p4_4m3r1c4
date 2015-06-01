@@ -55,7 +55,7 @@
         $(divScroll).css({'height' : altoPantalla-45, 'margin-top' : 0, 'background' :'rgba(255,255,255,0.6)'});						
 
 
-        $.get('reglas/reglas.html', function(html){
+        $.get(objApp.SERVER + 'reglas/reglas.html', function(html){
             $(divScroll).append(html);
         });
 

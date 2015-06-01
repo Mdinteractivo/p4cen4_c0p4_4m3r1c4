@@ -80,7 +80,6 @@
 
 
             var data = new Object();
-            var cuidadOrigen;
             var cuidadActual;
             var fechaNac;
 
@@ -103,9 +102,6 @@
                 }
                 catch(e){}
 
-                data.usuario_ciudad_origen = 'usuario_ciudad_origen';
-                data.usuario_ciudad_actual = 'usuario_ciudad_origen';
-                data.usuario_fecha_nacimiento = 'usuario_ciudad_origen';
             }
 
             var params = 
@@ -175,11 +171,6 @@ function DatosFacebook(parent, data)
     $(leftHolder).append(inputEmail);
     $(inputEmail).css({'width' : 195});
 
-    $(leftHolder).append('<label>Ciudad de origen</label><br/>');
-    var inputCiudadOrigen = document.createElement('input');
-    inputCiudadOrigen.type = 'text';
-    $(leftHolder).append(inputCiudadOrigen);
-    $(inputCiudadOrigen).css({'width' : 195});
 
     $(leftHolder).append('<label>Ciudad actual</label><br/>');
     var inputCiudadActual = document.createElement('input');
@@ -238,14 +229,12 @@ function DatosFacebook(parent, data)
         var datos = {};
         datos.nombre =  $(inputNombre).val();
         datos.email =  $(inputEmail).val();
-        datos.ciudad_origen =  $(inputCiudadOrigen).val();
         datos.ciudad_actual =  $(inputCiudadActual).val();
         datos.fecha_nacimiento =  $(inputFechaNac).val();
 
         if(validarPaso1(datos)){
             data.usuarios_nombre = datos.nombre;
             data.usuario_email = datos.email;
-            data.usuario_ciudad_origen = datos.ciudad_origen;
             data.usuario_ciudad_actual = datos.ciudad_actual;
             data.usuario_fecha_nacimento = datos.fecha_nacimiento;
             parentNavigate();
@@ -404,7 +393,6 @@ function DatosApp(parent, data)
                     usuario_at : data.access_token,
                     usuario_nombre : data.usuario_nombre,
                     usuario_email : data.usuario_email,
-                    usuario_ciudad_origen  :data.usuario_ciudad_origen,
                     usuario_ciudad_actual : data.usuario_ciudad_actual,
                     usuario_fecha_nacimiento : data.usuario_fecha_nacimento,
                     usuario_numero_carnet:$(inputCarnet).val(),
@@ -435,7 +423,6 @@ function DatosApp(parent, data)
                     usuario_at : data.access_token,
                     usuario_nombre : data.usuario_nombre,
                     usuario_email : data.usuario_email,
-                    usuario_ciudad_origen  : data.usuario_ciudad_origen,
                     usuario_ciudad_actual : data.usuario_ciudad_actual,
                     usuario_fecha_nacimiento : data.usuario_fecha_nacimento,
                     usuario_numero_carnet:$(inputCarnet).val(),
@@ -681,7 +668,6 @@ function DatosNotificaciones(parent, data)
                 'usuario_at' : data.usuario_at,
                 'usuario_nombre' : data.usuario_nombre,
                 'usuario_email' : data.usuario_email,
-                'usuario_ciudad_origen'  : data.usuario_ciudad_origen,
                 'usuario_ciudad_actual' : data.usuario_ciudad_actual,
                 'usuario_fecha_nacimiento' : data.usuario_fecha_nacimiento,
                 'usuario_numero_carnet': data.usuario_numero_carnet,
@@ -718,7 +704,7 @@ function DatosNotificaciones(parent, data)
 
             setTimeout(function()
                        {
-                objApp.Navigate('inicio', null);
+                objApp.Navigate('polla', null);
 
             }, 500);
         }
