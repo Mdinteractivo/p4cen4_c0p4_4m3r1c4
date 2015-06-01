@@ -704,7 +704,7 @@ function DatosNotificaciones(parent, data)
 
             setTimeout(function()
                        {
-                objApp.Navigate('polla', null);
+                objApp.Navigate('inicio', null);
 
             }, 500);
         }
