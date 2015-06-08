@@ -83,6 +83,8 @@ var objApp;
                 self.UUID = device.uuid;
                 self.PLATFORM = device.platform;
 
+                GappTrack.track("959822422", "OHtGCLL0hF0Q1vTWyQM", "0.00", "NO");
+
                 try{
                     StatusBar.hide();
                 }catch(e){}
