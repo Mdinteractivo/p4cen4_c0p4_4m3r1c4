@@ -128,8 +128,8 @@ function LightBoxVersus(nodo, parent)
 		$(btnEnviar).css({'display' : 'none'});
 		$(btnEditar).css({'display' : 'block'});
 		
-		$(inputLocal).attr('disabled' ,'disabled');
-		$(inputVisitante).attr('disabled' ,'disabled');
+	//	$(inputLocal).attr('disabled' ,'disabled');
+	//	$(inputVisitante).attr('disabled' ,'disabled');
 
 		//checkUp();
 	}		
@@ -217,8 +217,8 @@ function LightBoxVersus(nodo, parent)
 			$(btnEnviar).css({'display' : 'none'});
 			$(btnEditar).css({'display' : 'block'});
 			
-			$(inputLocal).attr('disabled' ,'disabled');
-			$(inputVisitante).attr('disabled' ,'disabled');
+			//$(inputLocal).attr('disabled' ,'disabled');
+			//$(inputVisitante).attr('disabled' ,'disabled');
 
 			objApp.error('Tu apuesta ha sido guardada correctamente');
 							
@@ -238,8 +238,8 @@ function LightBoxVersus(nodo, parent)
 		$(btnEnviar).css({'display' : 'block'});
 		$(btnEditar).css({'display' : 'none'});
 		
-		$(inputLocal).attr('disabled' ,'');
-		$(inputVisitante).attr('disabled' ,'');
+		//$(inputLocal).attr('disabled' ,'');
+		//$(inputVisitante).attr('disabled' ,'');
 	}	
 	
 	function compartir()
