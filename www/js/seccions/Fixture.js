@@ -407,14 +407,14 @@ function VersusOctavos(xml)
 				$(itemVersus).css({'opacity' : 0}); 
 								
 			var bandera1 = new Image();
-				bandera1.src = objApp.SERVER+'global/img/banderas/octavos/bandera'+$(this).find('idLocal').text()
+				bandera1.src = objApp.SERVER+'global/img/banderas/bandera'+$(this).find('idLocal').text()
 				+'.png?ac='+objApp.VERSION;
 				bandera1.width = 71;
 				$(itemVersus).append(bandera1);
 				$(bandera1).css({'position' : 'absolute', 'left' : 10 , 'top' : 0});
 				
 			var bandera2 = new Image();
-				bandera2.src = objApp.SERVER+'global/img/banderas/octavos/bandera'+$(this).find('idVisita').text()
+				bandera2.src = objApp.SERVER+'global/img/banderas/bandera'+$(this).find('idVisita').text()
 				+'.png?ac='+objApp.VERSION;
 				bandera2.width = 71;
 				$(itemVersus).append(bandera2);	
