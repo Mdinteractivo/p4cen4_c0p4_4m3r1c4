@@ -198,7 +198,8 @@ var objApp;
 
         function onErrorCheckDispositivo()
         {
-            self.error('Ha ocurrido un error, por favor intenta más tarde.');
+            //self.error('Ha ocurrido un error, por favor intenta más tarde.');
+            checkExisteDispositivo();
         }
 
         /*Public methods*/	
