@@ -387,7 +387,6 @@ function VersusOctavos(xml)
 	
 	self.div = document.createElement('div');
 	$(self.div).css({'-webkit-overflow-scrolling' : 'touch', 'float':'left', 'width' : '100%'});
-	$(self.div).css({'background' : 'url(img/secciones/fixture/field.png) repeat-y'});
 	$(self.div).css({'background-size' : '320px 17px'});
 	
 	var header = document.createElement('div');

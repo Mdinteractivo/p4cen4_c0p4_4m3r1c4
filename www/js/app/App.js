@@ -29,6 +29,7 @@ var objApp;
         self._ManagePush;
         self._Facebook;
         self.idUsuario;
+        self.nombreUsuario;
         self.VERSION;	
         self.TITLE;	
         self.DESCRIPTION;	
@@ -175,6 +176,7 @@ var objApp;
             {				
                 xmlDataUser = xml;
                 self.idUsuario = $(xml).find('idUsuario').text();
+                self.nombreUsuario = $(xml).find('nombre').text();
                 objHeader.setUser($(xml).find('nombre').text());
                 objApp.Navigate('inicio', null);
             }
@@ -199,6 +201,7 @@ var objApp;
         function onErrorCheckDispositivo()
         {
             //self.error('Ha ocurrido un error, por favor intenta más tarde.');
+            console.log("fallo check dispositivo");
             checkExisteDispositivo();
         }
 
