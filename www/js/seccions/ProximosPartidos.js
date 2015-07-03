@@ -22,6 +22,7 @@ function ProximosPartidos(nodo)
         error : onErrorXML
     });	
 
+    
     var holderItems = document.createElement('div');
     $(self.div).append(holderItems);
     $(holderItems).css({'width' : 320, 'float' : 'left'});

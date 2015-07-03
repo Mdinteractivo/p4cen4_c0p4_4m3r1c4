@@ -89,13 +89,15 @@
                 data.usuario_uid = 100005636947233;
                 data.usuario_nombre = 'Martin Luz';
                 data.usuario_email  = 'mluz@gmail.com' ;
+
             }
             else
             {
                 data.usuario_uid = $obj_usuario.id;
                 data.access_token = $access_token
                 data.usuario_nombre = $obj_usuario.name;
-
+                objApp.nombreUsuario = data.usuario_nombre;
+                
                 try
                 {
                     data.usuario_email = $obj_usuario.email;
